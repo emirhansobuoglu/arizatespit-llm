@@ -1,0 +1,58 @@
+[
+  {
+    "model": "phi3:mini",
+    "question": "Buzdolabımın içi karlanıyor, nedeni ne olabilir?",
+    "top_k": 5,
+    "answer": "Açıkluysa hava sirkülasyonu yapabileceğimi döndürdüğünüzde değil, karlanma olabilir ve bu uzun aşama basitleşebilecekleri.",
+    "Exact_Match": 0,
+    "F1_score": 0.1818,
+    "Hallucination": 1,
+    "latency_sec": 9.826,
+    "tokens": 61,
+    "tokens_per_sec": 6.21,
+    "cpu_usage_percent": 9.6,
+    "ram_usage_mb": 1481.96
+  },
+  {
+    "model": "gemma:2b",
+    "question": "Buzdolabımın içi karlanıyor, nedeni ne olabilir?",
+    "top_k": 5,
+    "answer": "Buzdolabımın içi karlanıyor olabilir.\n\nBazı durumlarda, buzdolabımın içerideki sıcaklık düşük olmasına neden olabilir. Bu durumda, evsel gazların buraya girmesi ve buzulun buzlanmasına yol açar.",
+    "Exact_Match": 0,
+    "F1_score": 0.0,
+    "Hallucination": 1,
+    "latency_sec": 7.213,
+    "tokens": 59,
+    "tokens_per_sec": 8.18,
+    "cpu_usage_percent": 8.8,
+    "ram_usage_mb": -751.98
+  },
+  {
+    "model": "llama3.2:3b",
+    "question": "Buzdolabımın içi karlanıyor, nedeni ne olabilir?",
+    "top_k": 5,
+    "answer": "Buzdolabının inside'si karlıyorsa, nedenleri arasında defrost rezistansı veya NTC arızası, kapı uzun süre açık kalması ve fazla gaz basılması yer alabilir.",
+    "Exact_Match": 0,
+    "F1_score": 0.381,
+    "Hallucination": 1,
+    "latency_sec": 7.924,
+    "tokens": 45,
+    "tokens_per_sec": 5.68,
+    "cpu_usage_percent": 10.3,
+    "ram_usage_mb": 69.41
+  },
+  {
+    "model": "qwen2.5:3b",
+    "question": "Buzdolabımın içi karlanıyor, nedeni ne olabilir?",
+    "top_k": 5,
+    "answer": "Buzdolabımın içi karlanması, kapının açık kalması, nemli hava girerken veya fazla gaz pressure evaporatörde oluşabilir. Ayrıca, çekmecelerde geçici olarak da karlanma olur.",
+    "Exact_Match": 0,
+    "F1_score": 0.3333,
+    "Hallucination": 1,
+    "latency_sec": 7.224,
+    "tokens": 56,
+    "tokens_per_sec": 7.75,
+    "cpu_usage_percent": 7.0,
+    "ram_usage_mb": -320.16
+  }
+]

@@ -1,0 +1,61 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter / Colab
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# HuggingFace / Models
+# =========================
+.cache/
+huggingface/
+models/
+*.bin
+*.safetensors
+pytorch_model.bin
+model.safetensors
+
+# =========================
+# FAISS Indexes
+# =========================
+*.faiss
+*.index
+*.bin
+
+# =========================
+# Large Generated Files
+# =========================
+chunks_*.txt
+retrieved_*.txt
+llm_*_results.json
+*_results.json
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# API / Secrets
+# =========================
+.env
+.env.*

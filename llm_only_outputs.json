@@ -1,0 +1,26 @@
+[
+  {
+    "model": "phi3:mini",
+    "question": "Buzdolabımın içi karlanıyor, nedeni ne olabilir?",
+    "answer": "Bu sorun da aşağı yazmadıysanız birkaç faktördür. Öte sanırken arkadaşlar dudum su ya varsa ev temizliğini sürekli sağlamaya karar veriyor musabeyi öyle bunu rahatsa edilebilir gibi, bu zaman buzdolambazlı olduğundan emin olmak için herhangi bir yöntemle ilgili ayında su kontrol etmek ve başka hedeflerden beri temmediyse tuttuk daha sonra var miktadır. Çünütürülersel kullanıcılar, herhangi bir bölümde buzdolabındaki su kontrol işlemleri en yakın olması bekleniyor ve karlanta sorunu gerçekleştiriyor. Bu da ürünlerin hiçbir dayatma aynı zamanda hedefte bağlanmaktadiler var, zaten buz tarihini azaltmak ama buzlar dondurmaya yönlendiriyorsa sorunu gidebilecek. Ayrıca, herhangi bir fiziksel ayar da daha önceden bağlanmasın ve buzluktaki su kontrol işleminin alt dondurucusuna ulaşma yeteneğine sahip olduğundan emin olmak üzere gerekmeyen fikriya yaparak aynı dair.\n\nÇöpücüs, herhangi bir bölümden su var mıyor musunuz? Bu sorun yaşadabileceğini zannen kendi kontrol için buzluktaki alt sütünuna yönelik çalıntılarla ilerleyerek belki de tutuya da bulamazsın. Yaptıkta, su bölgede kalitesi ve karlanti problemini azaltmayarak hedefte bağlanmaktadiler var gibi bir durum gerçekleştiriyor.\n0 \n\nAçıklama: Biz de buzdolabazan su kullanabileceğinizi söylersen mümkün miydik? Önsizliğini azaltman ve buraya dönmen bile daha sade olmayan bir yaklaşık 2 günde buzdolamasayacağım.\n0",
+    "expected_answer": "Buzdolabında karlanma genellikle rezistans, fan arızası, sensör (NTC) problemi veya nemli hava girişinden kaynaklanır."
+  },
+  {
+    "model": "gemma:2b",
+    "question": "Buzdolabımın içi karlanıyor, nedeni ne olabilir?",
+    "answer": "Buzdolabımın içi karlanıyor, çünkü anında sıcak su akışından dolayı sağından solundan akıma devam ediyor. Karlanma da keza aynı nedenle buz kırmıyorsa zaten rezistans ntc sorunu olabilir.",
+    "expected_answer": "Buzdolabında karlanma genellikle rezistans, fan arızası, sensör (NTC) problemi veya nemli hava girişinden kaynaklanır."
+  },
+  {
+    "model": "llama3.2:3b",
+    "question": "Buzdolabımın içi karlanıyor, nedeni ne olabilir?",
+    "answer": "Buzdolabiminin içi karlanıyor ve neden bu olabilir? Buzdolabının içi karlanabilir karena su akışı problemi, fan arızası veya gaz basılı olması reasonsi.",
+    "expected_answer": "Buzdolabında karlanma genellikle rezistans, fan arızası, sensör (NTC) problemi veya nemli hava girişinden kaynaklanır."
+  },
+  {
+    "model": "qwen2.5:3b",
+    "question": "Buzdolabımın içi karlanıyor, nedeni ne olabilir?",
+    "answer": "Buzdolabı iç kısmının karlanması genellikle kompresör yağı eksikliği veya yağ maddelerinin yanlarına girdiği anlamına gelebilir. Ayrıca, kapatımların açık kalması veya havalardaki nem oranının yüksek olması da bu durumu etkileyebilir. Başka bir seçenek de dondurucu motorunun sorunudur. Her iki durumda da komşu servis aranması gerekebilir.",
+    "expected_answer": "Buzdolabında karlanma genellikle rezistans, fan arızası, sensör (NTC) problemi veya nemli hava girişinden kaynaklanır."
+  }
+]

@@ -1,0 +1,55 @@
+Toplam 209 doküman okundu.
+
+--- Chunking Stratejisi 1 (Sentence-Based) başlatılıyor ---
+✅ Strateji 1 tamamlandı. Toplam chunk sayısı: 1924
+
+--- Chunking Stratejisi 2 (Fixed + Overlap) başlatılıyor ---
+✅ Strateji 2 tamamlandı. Toplam chunk sayısı: 311
+
+=======================================================
+                   FAISS İNDEKSLENİYOR
+=======================================================
+
+--- İşleniyor: faiss_S1_M1_dbmdz_IP.bin ---
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name dbmdz/bert-base-turkish-cased. Creating a new one with mean pooling.
+Model: dbmdz/bert-base-turkish-cased, Boyut: 768, Süre: 1413.63 saniye
+✅ İndeks 'faiss_S1_M1_dbmdz_IP.bin' başarıyla kaydedildi.
+
+--- İşleniyor: faiss_S1_M2_bge-m3_L2.bin ---
+modules.json: 100%
+ 349/349 [00:00<00:00, 24.3kB/s]
+config_sentence_transformers.json: 100%
+ 123/123 [00:00<00:00, 11.0kB/s]
+README.md: 
+ 15.8k/? [00:00<00:00, 1.17MB/s]
+sentence_bert_config.json: 100%
+ 54.0/54.0 [00:00<00:00, 5.73kB/s]
+config.json: 100%
+ 687/687 [00:00<00:00, 69.3kB/s]
+pytorch_model.bin: 100%
+ 2.27G/2.27G [00:49<00:00, 21.5MB/s]
+model.safetensors: 100%
+ 2.27G/2.27G [00:45<00:00, 47.7MB/s]
+tokenizer_config.json: 100%
+ 444/444 [00:00<00:00, 10.6kB/s]
+sentencepiece.bpe.model: 100%
+ 5.07M/5.07M [00:05<00:00, 904kB/s]
+tokenizer.json: 100%
+ 17.1M/17.1M [00:26<00:00, 646kB/s]
+special_tokens_map.json: 100%
+ 964/964 [00:00<00:00, 95.5kB/s]
+config.json: 100%
+ 191/191 [00:00<00:00, 10.2kB/s]
+Model: BAAI/bge-m3, Boyut: 1024, Süre: 5031.47 saniye
+✅ İndeks 'faiss_S1_M2_bge-m3_L2.bin' başarıyla kaydedildi.
+
+--- İşleniyor: faiss_S2_M1_dbmdz_IP.bin ---
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name dbmdz/bert-base-turkish-cased. Creating a new one with mean pooling.
+Model: dbmdz/bert-base-turkish-cased, Boyut: 768, Süre: 487.18 saniye
+✅ İndeks 'faiss_S2_M1_dbmdz_IP.bin' başarıyla kaydedildi.
+
+--- İşleniyor: faiss_S2_M2_bge-m3_L2.bin ---
+Model: BAAI/bge-m3, Boyut: 1024, Süre: 2702.44 saniye
+✅ İndeks 'faiss_S2_M2_bge-m3_L2.bin' başarıyla kaydedildi.
+
+🔥 Tüm indeksleme işlemleri tamamlandı! Retrieval aşamasına geçebilirsiniz.
